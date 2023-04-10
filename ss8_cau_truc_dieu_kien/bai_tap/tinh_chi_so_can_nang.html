@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chỉ số khối cơ thể</title>
+</head>
+<body>
+<h2> Chỉ số cân nặng của cơ thể</h2>
+<label><input type="number" id="socannang" placeholder="Nhập số cân nặng"> </label> <br>
+<label><input type="number" id="chieucao" placeholder="Nhập chiều cao"> </label> <br>
+<input type="button" onclick="ketQua()" value="Xếp loại"> <br>
+<p id="result">kết quả</p>
+<script>
+    function ketQua() {
+        let soCanNang = document.getElementById("socannang").value;
+        let chieuCao = document.getElementById("chieucao").value;
+        let chiSoBmi = (soCanNang / (chieuCao ^ 2));
+        if (chiSoBmi >= 30) {
+            document.getElementById("result").innerHTML = "Bạn quá béo";
+        } else if (chiSoBmi >= 25) {
+            document.getElementById("result").innerHTML = "Bạn thừa cân";
+        } else if (chiSoBmi >= 18.5) {
+            document.getElementById("result").innerHTML = "Bạn có một thân hình chuẩn";
+        } else
+        {
+            document.getElementById("result").innerHTML = "Bạn quá ốm";
+        }
+    }
+
+</script>
+</body>
+</html>

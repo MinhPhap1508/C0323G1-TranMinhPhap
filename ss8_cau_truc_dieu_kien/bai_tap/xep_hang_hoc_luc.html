@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Học lực</title>
+</head>
+<body>
+<!--<script>-->
+<!--    let diemKiemTra = parseInt(prompt("Nhập điểm kiểm tra"));-->
+<!--    let diemGiuaKy = parseInt(prompt("Nhập điểm giữa kỳ"));-->
+<!--    let diemCuoiKy = parseInt(prompt("Nhập điểm cuối kỳ"));-->
+<!--    if ((diemKiemTra + diemGiuaKy + diemCuoiKy) / 3 >= 8.5) {-->
+<!--        alert("Xếp hạng A");-->
+<!--    } else if ((diemKiemTra + diemGiuaKy + diemCuoiKy) / 3 >= 6.5) {-->
+<!--        alert("xếp hạng B")-->
+<!--    } else if ((diemKiemTra+diemGiuaKy+diemCuoiKy)/3>=5){-->
+<!--        alert("Xếp hạng C")-->
+<!--    } else if ((diemKiemTra+diemGiuaKy+diemCuoiKy)/3>=3);-->
+<!--        else {-->
+<!--            alert("Xếp hạng D")-->
+<!--    }-->
+<!--</script>-->
+<form>
+    <h2> Xếp hạng học lực</h2>
+    <label><input type="number" id="diemkiemtra" placeholder="Điểm kiểm tra"></label> <br>
+    <label><input type="number" id="diemgiuaky" placeholder="Điểm giữa kỳ"></label> <br>
+    <label><input type="number" id="diemcuoiky" placeholder="Điểm cuối kỳ"></label> <br>
+    <input type="button" onclick="ketqua()" value="kết quả"> <br>
+    <p id="result"> Kết quả</p>
+</form>
+<script>
+    function ketqua() {
+        let diemKiemTra = document.getElementById('diemkiemtra').value;
+        let diemGiuaKy = document.getElementById('diemgiuaky').value;
+        let diemCuoiKy = document.getElementById('diemcuoiky').value;
+        let diemTrungBinh = ((diemKiemTra + diemGiuaKy * 2 + diemCuoiKy * 3) / 6);
+        if (diemTrungBinh >= 8.5) {
+            document.getElementById('result').innerHTML = " Xếp loại Giỏi";
+        } else if (diemTrungBinh >= 6.5) {
+            document.getElementById('result').innerHTML = " Xếp loại Khá";
+        } else if (diemTrungBinh >= 5) {
+            document.getElementById('result').innerHTML = " Xếp loại Trung Bình";
+        } else if (diemTrungBinh >= 2) {
+            document.getElementById('result').innerHTML = " Xếp loại Yếu";
+        } else {
+            document.getElementById('result').innerHTML = " Xếp loại Kém";
+        }
+    }
+
+</script>
+</body>
+</html>

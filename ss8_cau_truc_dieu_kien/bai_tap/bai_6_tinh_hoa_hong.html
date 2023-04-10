@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hoa hồng được nhận</title>
+</head>
+<body>
+<h2>Hoa hồng nhận được</h2>
+<label><input type="number" id="doanhso" placeholder="Doanh số"></label> <br>
+<input type="button" onclick="laiSuat()" value="Kiểm tra"> <br>
+<p id="result">Số hoa hồng nhận được là</p>
+<script>
+    function laiSuat() {
+        let doanhSo=document.getElementById("doanhso").value;
+        if(doanhSo<100000000){
+            let hoaHong= (doanhSo*5/100)
+            document.getElementById("result").innerHTML="Số hoa hồng bạn nhận được là "+hoaHong;
+        }else  if(doanhSo<200000000){
+            let hoaHong= (doanhSo*7/100)
+            document.getElementById("result").innerHTML="Số hoa hồng bạn nhận được là "+hoaHong;
+        } else {
+            let hoaHong= (doanhSo*10/100)
+                document.getElementById("result").innerHTML="Số hoa hồng bạn nhận được là "+hoaHong;
+            }
+
+    }
+</script>
+</body>
+</html>
