@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra số thực</title>
+</head>
+<body>
+<h2>kiểm tra số thực</h2>
+<label><input type="number" id="soa" placeholder="Nhập số a"></label> <br>
+<label><input type="number" id="sob" placeholder="Nhập số b"></label> <br>
+<label><input type="number" id="soc" placeholder="Nhập số c"></label> <br>
+<input type="button" onclick="kiemTra()" value="Kiểm tra">
+<p id="ketqua"></p>
+<script>
+    function kiemTra() {
+        let numberA = +document.getElementById('soa').value;
+        let numberB = +document.getElementById('sob').value;
+        let numberC = +document.getElementById('soc').value;
+        if (numberA > 0 && numberB > 0 && numberC > 0 && (numberA + numberB) > numberC && (numberB + numberC) > numberA && (numberA + numberC) > numberB) {
+            document.getElementById('ketqua').innerHTML = 'a,b,c là cạnh của một tam giác'
+        } else {
+            document.getElementById('ketqua').innerHTML = 'a,b,c không phải là cạnh của một tam giác';
+        }
+    }
+</script>
+</body>
+</html>

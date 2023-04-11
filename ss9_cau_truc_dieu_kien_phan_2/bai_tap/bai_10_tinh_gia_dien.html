@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính giá điện</title>
+</head>
+<body>
+<h2> Chương trình tính giá điện</h2>
+<label><input type="number" id="sochu" placeholder="Nhập số chữ tiêu thụ"></label><br>
+<input type="button" onclick="tinhTien()" value="Kiểm tra">
+<p id="ketqua">Số tiền phải trả là</p>
+<script>
+    function tinhTien() {
+
+        let soChu = +document.getElementById('sochu').value;
+        let bac1 = soChu * 1.678;
+        let bac2 = soChu * 1.734;
+        let bac3 = soChu * 2.014;
+        let bac4 = soChu * 2.536;
+        let bac5 = soChu * 2.834;
+        let bac6 = soChu * 2.927;
+        if (soChu <= 50) {
+            document.getElementById('ketqua').innerHTML = 'Giá tiền phải dóng là ' + bac1+'<sup>đ';
+        } else if (soChu <= 100) {
+            document.getElementById('ketqua').innerHTML = 'Giá tiền phải đóng là ' + bac2+'<sup>đ';
+        } else if (soChu <= 200) {
+            document.getElementById('ketqua').innerHTML = 'Giá tiền phải đóng là ' + bac3+'<sup>đ';
+        } else if (soChu <= 300) {
+            document.getElementById('ketqua').innerHTML = 'Giá tiền phải đóng là ' + bac4+'<sup>đ';
+        } else if (soChu <= 400) {
+            document.getElementById('ketqua').innerHTML = 'Giá tiền phải đóng là ' + bac5+'<sup>đ';
+        } else {
+            document.getElementById('ketqua').innerHTML = 'Giá tiền phải đóng là ' + bac6+'<sup>đ';
+        }
+    }
+</script>
+</body>
+</html>

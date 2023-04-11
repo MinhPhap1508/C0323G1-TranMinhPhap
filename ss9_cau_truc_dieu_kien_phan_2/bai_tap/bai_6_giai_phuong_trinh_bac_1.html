@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phương trình bậc 1</title>
+</head>
+<body>
+<h2> Phương trình bậc 1</h2>
+<label><input type="number" id="nhapa" placeholder="Nhập số a"> </label> <br>
+<label><input type="number" id="nhapb" placeholder="Nhập số b"> </label> <br>
+<input type="button" onclick="dapAn()" value="Lời giải">
+<p id="ketqua">Đáp án là</p>
+
+<script>
+    function dapAn() {
+
+        let a = +document.getElementById('nhapa').value;
+        let b = +document.getElementById('nhapb').value;
+        let giaTriX = (-b / a)
+        document.getElementById('ketqua').innerHTML = 'kết quả là ' + giaTriX;
+
+        if (a === 0 && b === 0) {
+            document.write('phương trình có vô số nghiệm');
+        } else if (a !== 0 && b === 0) {
+            document.write('phương trình có nghiệm x=0');
+        } else if (a === 0 && b !== 0) {
+            document.write('phương trình vô nghiệm');
+        } else {
+            document.write('phương trình có nghiệm x= ' + (-b / a));
+        }
+    }
+</script>
+</body>
+</html>

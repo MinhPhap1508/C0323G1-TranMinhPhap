@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diện tích hình vuông</title>
+</head>
+<body>
+<h2> Diện tích hình vuông</h2>
+<label><input type="number" id="canha" placeholder="Nhập cạnh a"> </label>;
+<input type="button" onclick="ketQua()" value="Diện tích"><br>
+<p id="result">Diện tích hình vuông là</p>
+<script>
+function ketQua() {
+let canhA=document.getElementById('canha').value;
+  let dienTich=canhA*canhA;
+document.getElementById("result").innerHTML="diện tích cạnh a là "+dienTich;
+}
+</script>
+</body>
+</html>
