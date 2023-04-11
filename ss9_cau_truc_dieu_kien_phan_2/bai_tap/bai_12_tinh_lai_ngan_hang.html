@@ -6,14 +6,18 @@
 </head>
 <body>
 <h2> Lãi suất ngân hàng</h2>
-<label><input type="number" id="sotien" placeholder="Nhập số tiền bạn vay"> </label> <br>
-<label><input type="number" id="sothang" placeholder="Nhập số tháng bạn vay"> </label> <br>
- <input type="button" onclick="laiSuat()" value="Tính lãi">
+<label>Nhập số tiền bạn vay <input type="number" id="sotien" placeholder="VNĐ"> </label> <br>
+<label>Nhập số tháng bạn vay <input type="number" id="sothang"> </label> <br>
+<label>Nhập lãi suất <input type="number" id="laisuat" placeholder="%"> </label> <br>
+<input type="button" onclick="tinhLaiSuat()" value="Tính lãi">
 <p id="ketqua">Lãi suất phải trả là</p>
 <script>
-    function laiSuat() {
-        let soTienVay=document.getElementById('sotien').value;
-        let soThangVay=document.getElementById('sothang').value;
+    function tinhLaiSuat() {
+        let soTienVay = +document.getElementById('sotien').value;
+        let soThangVay = +document.getElementById('sothang').value;
+        let laiSuat = (+document.getElementById('laisuat').value) / 100;
+        let giaTriLai = (soTienVay * Math.pow(1 + laiSuat, soThangVay)) - soTienVay
+        document.getElementById('ketqua').innerHTML = 'Số tiền trả là ' + giaTriLai + '<sup>đ';
 
 
     }
