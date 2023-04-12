@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vòng lặp 1</title>
+</head>
+<body>
+<h2> Vòng lặp 1</h2>
+<script>
+    let number = parseInt(prompt("Nhập nhiệt độ"));
+    while (number > 100 || number < 20) {
+        if (number > 100)
+            number = prompt("vui lòng giảm nhiệt độ");
+        else
+           number= prompt("vui lòng tăng nhiệt độ lên");
+    }
+    alert("Tuyệt vời nhiệt độ của bạn là "+number);
+
+</script>
+</body>
+</html>

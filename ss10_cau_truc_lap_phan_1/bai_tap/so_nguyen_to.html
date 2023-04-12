@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hiển thị số nguyên tố</title>
+</head>
+<body>
+<h2>
+    Hiển thị các số nguyên tố
+</h2>
+<script>
+    let soCanInRa = parseInt(prompt('Nhập số số cần in ra'));
+    let numberN = 2
+    let count = 0
+    while (count < soCanInRa) {
+        let count2 = 0
+        for (let i = 0; i < numberN; i++) {
+            if (numberN % i === 0) {
+                count2++
+            }
+        }
+        if (count2 === 1) {
+            document.writeln(numberN + "<br>")
+            count++;
+        }
+        numberN++
+    }
+</script>
+</body>
+</html>
