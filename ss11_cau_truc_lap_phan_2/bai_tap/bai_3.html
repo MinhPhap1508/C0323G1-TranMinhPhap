@@ -6,13 +6,46 @@
 </head>
 <body>
 <script>
-    let N = 5
-    for (let i = 0; i < N; i++) {
+    let numberN = 5
+    for (let i = 0; i < numberN; i++) {
         for (let j = 0; j <= i; j++) {
-            document.write("*")
+            document.write("*");
         }
-        document.write("<br>")
+        document.write("<br>");
     }
+    document.write("<br>");
+    // tam giác
+    for (let i = numberN - 1; i >= 0; i--) {
+        for (let j = 0; j <= i; j++) {
+            document.write("*");
+        }
+        document.write("<br>");
+    }
+    document.writeln("<br>");
+    // tam giác
+    for (let i = numberN; i > 0; i--) {
+        for (let j = 1; j <= 5; j++) {
+            if (j < i) {
+                document.write("&nbsp&nbsp");
+            } else {
+                document.write("*");
+            }
+        }
+        document.write("<br>");
+    }
+    document.write("<br>");
+    //tam giác
+    for (let i = numberN; i > 0; i--) {
+        for (let j = 5; j >= 1; j--) {
+            if (j > i) {
+                document.write("&nbsp&nbsp");
+            } else {
+                document.write("*");
+            }
+        }
+        document.write("<br>");
+    }
+
 </script>
 </body>
 </html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>game đóaan số</title>
+</head>
+<body>
+<h2> XIN CHÀO VÀ HẸN GẶP LẠI</h2>
+<input type="button" onclick="doanSo()" value="Chơi">
+<script>
+    function doanSo() {
+        let n = parseInt(prompt("Nhập số tối đa bạn muốn đoán"));
+        let soNgauNhien = Math.floor(Math.random() * n);
+        for (let count = 1; count < 4; count++) {
+            let soBanDoan = parseInt(prompt("Số bạn đoán"));
+            if (soBanDoan === soNgauNhien) {
+                alert("Bạn đã đoán đúng");
+                break;
+            }
+            while (soBanDoan !== soNgauNhien) {
+                if (soBanDoan > soNgauNhien) {
+                    alert("Số bạn đoán lớn hơn");
+                    break;
+                } else {
+                    alert("số bạn đoán nhỏ hơn");
+                    break;
+                }
+            }
+            if (count === 3) {
+                alert("Bạn đã hết lượt đoán");
+            }
+        }
+    }
+</script>
+</body>
+</html>
