@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="faf2f9f3-3f67-4f23-99e5-aa9a083cb0a9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_phan_2/bai_tap/bai_2_tinh_giai_thua.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_phan_2/bai_tap/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_phan_2/bai_tap/bai_3_phan_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_phan_2/bai_tap/bai_3_phan_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_phan_2/bai_tap/bai_6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss10_cau_truc_lap_phan_1/bai_tap/bai_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss10_cau_truc_lap_phan_1/bai_tap/bai_7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_phan_2/bai_tap/bai_6_giai_phuong_trinh_bac_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_phan_2/bai_tap/bai_6_giai_phuong_trinh_bac_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_phan_2/bai_tap/bai_8.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9_cau_truc_dieu_kien_phan_2/bai_tap/bai_8.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OLmh6p7SjHFZOlLgxN9hG6uxiU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="faf2f9f3-3f67-4f23-99e5-aa9a083cb0a9" name="Changes" comment="" />
+      <created>1681348353246</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681348353246</updated>
+      <workItem from="1681348355736" duration="4489000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

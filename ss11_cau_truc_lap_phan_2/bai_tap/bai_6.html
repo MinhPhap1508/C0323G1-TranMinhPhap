@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tổng của 30 số</title>
+</head>
+<body>
+<h2> Tổng của 30 số chia hết cho 7 là:</h2>
+<script>
+    let i = 0;
+    let count = 0;
+    let total = 0;
+    while (count < 30) {
+        if (i % 7 === 0) {
+            count++;
+            total = total + i;
+        }
+        i++;
+    }
+    document.write(total)
+</script>
+</body>
+</html>
