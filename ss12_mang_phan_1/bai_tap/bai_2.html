@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num = [1, 2, 23, 34, 5, 65, 76, 7, 69, 8];
+    let max = num[0];
+    for (let i = 0; i < num.length; i++) {
+        if (max < num[i]) {
+            max = num[i];
+        }
+    }document.write(max+"<br>");
+    document.write(num.indexOf(max)+"<br>");
+</script>
+</body>
+</html>

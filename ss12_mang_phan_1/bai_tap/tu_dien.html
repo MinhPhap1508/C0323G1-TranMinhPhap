@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Từ điển</title>
+</head>
+<body>
+<label>nhập vào <input type="text" id="nhapvao"></label>
+<label><input type="button" onclick="dichTu()" value="Dịch"></label>
+<p id="ketqua">kết quả sẽ hiển thị ở đây </p>
+<script>
+    function dichTu() {
+        let nhapVao = document.getElementById("nhapvao").value;
+        let english = ["apple", "banana", "cat", "book"];
+        let vietnamese = ["táo", "chuối", "con mèo", "quyển sách"];
+        for (let i = 0; i < 3; i++) {
+            if (nhapVao === english[i]) {
+                document.getElementById("ketqua").innerHTML = (vietnamese[i]);
+                break;
+            }
+        }
+    }
+</script>
+</body>
+</html>

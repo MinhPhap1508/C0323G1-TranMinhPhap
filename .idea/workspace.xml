@@ -2,11 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faf2f9f3-3f67-4f23-99e5-aa9a083cb0a9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ss12_mang_phan_1/bai_tap/bai_1_khoi_tao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_phan_1/bai_tap/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_phan_1/bai_tap/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_phan_1/bai_tap/bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_phan_1/bai_tap/bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_phan_1/bai_tap/bai_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_phan_1/bai_tap/bai_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_phan_1/bai_tap/bai_8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_phan_1/bai_tap/su_dung_cac_ham_co_san_trong_mang/bai_1_noi_chuoi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_phan_1/bai_tap/su_dung_cac_ham_co_san_trong_mang/bai_2_chen_dau.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_phan_1/bai_tap/su_dung_cac_ham_co_san_trong_mang/bai__3_in_hoa.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_phan_1/bai_tap/tu_dien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_phan_1/thuc_hanh/Tạo bàn cờ caro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_phan_1/thuc_hanh/dao_nguoc_phan_tu_trong_mang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_phan_1/thuc_hanh/tao_thao_tac_voi_mang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_phan_1/thuc_hanh/tim_gia_tri_lon_nhat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12_mang_phan_1/thuc_hanh/tim_gia_tri_trong_mang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap_phan_2/bai_tap/bai_2_tinh_giai_thua.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_phan_2/bai_tap/bai_2_tinh_giai_thua.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap_phan_2/bai_tap/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_phan_2/bai_tap/bai_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap_phan_2/bai_tap/bai_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_phan_2/bai_tap/bai_7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap_phan_2/bai_tap/bai_8_game_doan_so.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_phan_2/bai_tap/bai_8_game_doan_so.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +35,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -51,7 +72,8 @@
       <workItem from="1681348355736" duration="10863000" />
       <workItem from="1681359579416" duration="14299000" />
       <workItem from="1681391358777" duration="1143000" />
-      <workItem from="1681435022799" duration="1238000" />
+      <workItem from="1681435022799" duration="15482000" />
+      <workItem from="1681474626257" duration="2460000" />
     </task>
     <servers />
   </component>

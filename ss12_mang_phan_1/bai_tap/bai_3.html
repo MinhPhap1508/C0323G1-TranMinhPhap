@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num = [12, 123, 41, 1, 6, 7, 9];
+    let max = num[0];
+    let sum = 0;
+    for (let i = 0; i < num.length; i++) {
+        if (max < num[i]) {
+            max = num[i];
+        }
+        sum += num[i];
+    }
+    document.write(max + "<br>");
+    document.write(sum / num.length + "<br>");
+
+</script>
+</body>
+</html>
