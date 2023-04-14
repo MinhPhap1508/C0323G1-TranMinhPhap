@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faf2f9f3-3f67-4f23-99e5-aa9a083cb0a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_phan_2/bai_tap/bai_4_in_hinh_chu_nhat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_phan_2/bai_tap/bai_8_game_doan_so.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10_cau_truc_lap_phan_1/bai_tap/bai_7.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap_phan_2/bai_tap/bai_2_tinh_giai_thua.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_phan_2/bai_tap/bai_2_tinh_giai_thua.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap_phan_2/bai_tap/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_phan_2/bai_tap/bai_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap_phan_2/bai_tap/bai_3_phan_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap_phan_2/bai_tap/bai_3_phan_3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap_phan_2/bai_tap/bai_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_phan_2/bai_tap/bai_6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap_phan_2/bai_tap/bai_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_phan_2/bai_tap/bai_7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap_phan_2/bai_tap/bai_8_game_doan_so.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap_phan_2/bai_tap/bai_8_game_doan_so.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +50,8 @@
       <updated>1681348353246</updated>
       <workItem from="1681348355736" duration="10863000" />
       <workItem from="1681359579416" duration="14299000" />
+      <workItem from="1681391358777" duration="1143000" />
+      <workItem from="1681435022799" duration="1238000" />
     </task>
     <servers />
   </component>

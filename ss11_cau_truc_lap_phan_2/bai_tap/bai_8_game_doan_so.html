@@ -16,14 +16,11 @@
             if (soBanDoan === soNgauNhien) {
                 alert("Bạn đã đoán đúng");
                 break;
-            }
-            while (soBanDoan !== soNgauNhien) {
+            } else {
                 if (soBanDoan > soNgauNhien) {
                     alert("Số bạn đoán lớn hơn");
-                    break;
                 } else {
                     alert("số bạn đoán nhỏ hơn");
-                    break;
                 }
             }
             if (count === 3) {
