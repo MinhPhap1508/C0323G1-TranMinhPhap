@@ -6,12 +6,14 @@
 </head>
 <body>
 <script>
-  let num=[1,3,45,12,67,34,9,21,37];
-  let V=[];
-  for (let i = 0; i <num.length; i++) {
-      V[i] = parseInt(prompt("Nhập số phần tử vào"))
-  }if ()
-
+    let num = [1, 3, 45, 12, 67, 34, 9, 21, 37];
+    let V = parseInt(prompt("Nhập số v vào"));
+    let giaTri = num.includes(V);
+    if (giaTri === true) {
+        document.write("V is in the array");
+    } else if (giaTri === false) {
+        document.write("V is not in the array");
+    }
 </script>
 </body>
 </html>
