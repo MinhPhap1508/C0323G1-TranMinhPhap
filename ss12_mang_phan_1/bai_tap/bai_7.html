@@ -6,15 +6,15 @@
 </head>
 <body>
 <script>
-let numbers = [3, 5, 6, 9, 8, 4, 1, 7, 22, 14];
-let V = +prompt("nhap V");
-for (let i = 0; i < numbers.length; i++) {
-if (V === numbers[i]) {
-numbers.splice(i, 1);
-numbers.push(0);
-}
-}
-document.write(numbers);
+    let num = [1, 3, 45, 12, 67, 34, 9, 21, 37];
+    let V = parseInt(prompt("Nhập số v vào"));
+    for (let i = 0; i < num.length; i++) {
+        if (V === num[i]) {
+            num.splice(i, 1);
+            num.push(0);
+        }
+    }
+    document.write(num + '');
 </script>
 </body>
 </html>
