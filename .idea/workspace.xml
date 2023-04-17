@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faf2f9f3-3f67-4f23-99e5-aa9a083cb0a9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ss12_mang_phan_1/thuc_hanh/ham_push.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang_phan_2/bai_tap/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang_phan_2/bai_tap/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang_phan_2/bai_tap/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang_phan_2/bai_tap/bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang_phan_2/bai_tap/bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_mang_phan_2/bai_tap/bai_6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss12_mang_phan_1/bai_tap/bai_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss12_mang_phan_1/bai_tap/bai_7.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ss11_cau_truc_lap_phan_2/bai_tap/bai_7.html" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -58,6 +65,10 @@
       <workItem from="1681391358777" duration="1143000" />
       <workItem from="1681435022799" duration="15482000" />
       <workItem from="1681474626257" duration="6647000" />
+      <workItem from="1681643467155" duration="5778000" />
+      <workItem from="1681694195773" duration="10658000" />
+      <workItem from="1681705073627" duration="13214000" />
+      <workItem from="1681734729336" duration="659000" />
     </task>
     <servers />
   </component>

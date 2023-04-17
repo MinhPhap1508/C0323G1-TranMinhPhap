@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let str = prompt("Nhập");
+    let arr = str.split("");
+    let count = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (isNaN(arr[i]) === false) {
+            document.write((arr[i]) + ",");
+            count++;
+        }
+    }
+    document.write("<br>" + "Có tổng cộng " + count + " số trong mảng");
+</script>
+</body>
+</html>

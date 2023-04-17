@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //cách 1
+    // let str = prompt("nhập chuỗi");
+    // let arr = [];
+    // arr = str.split("");
+    // for (let i = 0; i < arr.length; i++) {
+    //     if (arr[i] === ("-")) {
+    //         arr.splice(i, 1, "_");
+    //     }
+    // }
+    // document.write(arr.join(''));
+    //cách 2
+    // let num = +prompt("Nhập số chuỗi")
+    // let arr = [];
+    // let str=[];
+    // for (let i = 0; i < num; i++) {
+    //     arr[i] = prompt("Nhập chuỗi" + i)
+    // }
+    // for (let i = 0; i < arr.length; i++) {
+    //     let str = arr[i].split('')
+    //     for (let j = 0; j < arr[i].length; j++) {
+    //         if (arr[i][j] === "-") {
+    //             str.splice(j, 1, "_")
+    //         }
+    //     }
+    //     arr[i] = str.join("");
+    // }
+    // document.write(arr);
+    let arr = [];
+    let count = 0;
+    while (count < 5) {
+        let str = prompt("Nhập số chuỗi");
+        if (str.length === 1) {
+            arr.push(str);
+            count++;
+        }
+    }
+    for (let i in arr) {
+        if (arr[i] === "-") {
+            (arr[i] = "_");
+        }
+    }
+
+    document.write(arr);
+
+
+</script>
+</body>
+</html>
