@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<label><input type="number" id="bankinh" placeholder="nhập bán kinh"></label>
+<input type="button" onclick="tinhDienTich()" value="Diện tích">
+<input type="button" onclick="tinhChuVi()" value="Chu vi">
+<p id="result"></p>
+<script>
+    function tinhDienTich() {
+        let banKinh = document.getElementById("bankinh").value;
+        let dienTich = banKinh * banKinh * 3.14;
+        document.getElementById("result").innerText = "diện tích hình tròn là " + dienTich;
+    }
+
+    function tinhChuVi() {
+        let banKinh = document.getElementById("bankinh").value;
+        let chuVi = banKinh * 2 * 3.14;
+        document.getElementById("result").innerText = "diện tích hình tròn là " + chuVi;
+    }
+</script>
+</body>
+</html>

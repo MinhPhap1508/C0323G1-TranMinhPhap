@@ -10,16 +10,17 @@
     let strB = prompt("Nhập chuỗi b");
     let isEqual;
     if (strA.length !== strB.length) {
-        isEqual = document.write("2 chuỗi không giống nhau");
+        isEqual = false;
+        document.write("2 chuỗi không giống nhau")
     } else {
         for (let i = 0; i < strA.length; i++) {
             if (strA[i] !== strB[i]) {
-                isEqual = document.write("2 chuỗi không giống nhau");
-                break;
+                isEqual = false;
+                document.write("2 chuỗi không giống nhau");
             } else {
 
-                isEqual = document.write("2 chuỗi giống nhau");
-                break;
+                isEqual = true;
+                document.write("2 chuỗi giống nhau");
             }
         }
     }

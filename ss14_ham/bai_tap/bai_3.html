@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    numberA = parseInt(prompt("Nhập số a"));
+    numberB = parseInt(prompt("Nhập số b"));
+    tinhTong(numberA, numberB);
+
+    function tinhTong(numberA, numberB) {
+        if (numberA > numberB) {
+            return alert("số đầu tiên lớn hơn");
+        } else {
+            document.write(numberA + numberB);
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Binh phương</title>
+</head>
+<body>
+<label><input type="number" id="nhapso"></label>
+<input type="button" onclick="tinhBinhphuong()" value="Kết quả">
+<p id="result"></p>
+<script>
+    function tinhBinhphuong() {
+        let num = +document.getElementById('nhapso').value;
+        let binhPhuong = num * num;
+        document.getElementById('result').innerHTML = "bình phương của " + num + " là " + binhPhuong;
+    }
+</script>
+</body>
+</html>
