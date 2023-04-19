@@ -6,16 +6,17 @@
 </head>
 <body>
 <script>
-    let num = parseInt(prompt("Nhập giai thừa"))
+    let num = parseInt(prompt("Nhập giai thừa"));
 
     function tinhGiaiThua(num) {
-        let giaiThua = 1
+        let giaiThua = 1;
         for (let i = 1; i <= num; i++) {
-            giaiThua = giaiThua * i
+            giaiThua = giaiThua * i;
         }
+        return giaiThua;
     }
 
-    document.write(tinhGiaiThua(num))
+    document.write(tinhGiaiThua(num));
 </script>
 </body>
 </html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dao ngược mảng</title>
+</head>
+<body>
+<script>
+    let num = parseInt(prompt("Nhập số chuỗi trong mảng"));
+    let arr = [];
+    for (let i = 0; i < num; i++) {
+
+        arr[i] = prompt("Nhập mảng " + (i + 1));
+    }
+
+    function swapArray(str) {
+        let first = 0;
+        let last = str.length - 1;
+        while (first < last) {
+            let b = str[first];
+            str[first] = str[last];
+            str[last] = b;
+            first++;
+            last--;
+        }
+        return str;
+    }
+
+    document.write("Mảng số nguyên sau khi được đảo là " + swapArray(arr));
+</script>
+</body>
+</html>

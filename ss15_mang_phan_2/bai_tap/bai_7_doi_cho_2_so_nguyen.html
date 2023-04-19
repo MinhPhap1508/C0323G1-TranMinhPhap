@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let numberA = parseInt(prompt("Nhập số a"));
+    let numberB = parseInt(prompt("Nhập số b"));
+
+    function swap(a, b) {
+        let tmp = a;
+        a = b;
+        b = tmp
+        return [a, b];
+    }
+
+    swap(numberA, numberB);
+    alert("2 số sau khi đổi chổ là " + swap(numberA, numberB));
+</script>
+</body>
+</html>
