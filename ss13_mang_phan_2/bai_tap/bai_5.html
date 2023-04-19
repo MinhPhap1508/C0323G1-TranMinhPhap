@@ -8,20 +8,20 @@
 <script>
     let strA = prompt("Nhập chuỗi a");
     let strB = prompt("Nhập chuỗi b");
-    let isEqual;
+    let isEqual = true;
     if (strA.length !== strB.length) {
         isEqual = false;
-        document.write("2 chuỗi không giống nhau")
     } else {
         for (let i = 0; i < strA.length; i++) {
             if (strA[i] !== strB[i]) {
                 isEqual = false;
-                document.write("2 chuỗi không giống nhau");
-            } else {
-
-                isEqual = true;
-                document.write("2 chuỗi giống nhau");
+                break
             }
+        }
+        if (isEqual) {
+            document.write("2 chuỗi giống nhau");
+        } else {
+            document.write("2 chuỗi không giống nhau");
         }
     }
 

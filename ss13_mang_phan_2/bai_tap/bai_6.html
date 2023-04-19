@@ -34,12 +34,10 @@
     // }
     // document.write(arr);
     let arr = [];
-    let count = 0;
-    while (count < 5) {
+    for (let count = 0; count < 5; count++) {
         let str = prompt("Nhập số chuỗi");
         if (str.length === 1) {
             arr.push(str);
-            count++;
         }
     }
     for (let i in arr) {

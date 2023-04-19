@@ -6,13 +6,16 @@
 </head>
 <body>
 <script>
-    let str = prompt("Nhập");
-    let arr = str.split("");
+    let num = parseInt(prompt("Nhập kích thước của mảng"));
+    let arr = []
     let count = 0;
-    for (let i = 0; i < arr.length; i++) {
-        if (isNaN(arr[i]) === false) {
-            document.write((arr[i]) + ",");
-            count++;
+    for (let i = 0; i < num; i++) {
+        arr[i] = prompt("Nhập mảng" + i);
+        for (let j = 0; j < arr[i].length; j++) {
+            if (isNaN(arr[i]) === false) {
+                document.write((arr[i]) + ",");
+                count++;
+            }
         }
     }
     document.write("<br>" + "Có tổng cộng " + count + " số trong mảng");

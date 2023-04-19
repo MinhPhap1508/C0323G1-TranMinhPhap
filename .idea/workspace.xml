@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faf2f9f3-3f67-4f23-99e5-aa9a083cb0a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss14_ham/bai_tap/bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss14_ham/bai_tap/bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss14_ham/bai_tap/bai_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss14_ham/bai_tap/bai_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss14_ham/bai_tap/bai_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss14_ham/bai_tap/ham_2_bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss14_ham/bai_tap/ham_2_bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss14_ham/bai_tap/kiem_tra_so_nguyen_to.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss14_ham/thuc_hanh/chuyen_doi_nhiet_do.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss14_ham/thuc_hanh/tao_ham.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss14_ham/thuc_hanh/tim.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15_mang_phan_2/bai_tap/bai_3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_mang_phan_2/bai_tap/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang_phan_2/bai_tap/bai_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_mang_phan_2/bai_tap/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang_phan_2/bai_tap/bai_3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss13_mang_phan_2/bai_tap/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang_phan_2/bai_tap/bai_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss13_mang_phan_2/bai_tap/bai_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang_phan_2/bai_tap/bai_6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +70,8 @@
       <workItem from="1681786193892" duration="13104000" />
       <workItem from="1681807365214" duration="854000" />
       <workItem from="1681808444526" duration="4363000" />
-      <workItem from="1681820164168" duration="3393000" />
+      <workItem from="1681820164168" duration="5008000" />
+      <workItem from="1681866429664" duration="5360000" />
     </task>
     <servers />
   </component>
