@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="myCanvas" width="300" height="300"></canvas>
+<label><input type="text" id="chieudai" placeholder="Nhập chiều dài"></label>
+<label><input type="text" id="chieurong" placeholder="Nhập chiều rộng"></label>
+<input type="button" onclick="dienTich()" value="Diện Tích">
+<input type="button" onclick="chuVi()" value="Chu vi">
+<input type="button" onclick="hienThi()" value="hiển thị">
+<p id="result"></p>
+<script>
+
+
+     function chuVi() {
+         let h=+document.getElementById("chieudai").value;
+         let w=+document.getElementById("chieurong").value;
+         let hinhChuNhat= new Rectangle(h,w);
+         document.getElementById("result").innerHTML="Chu vi hình chữ nhật là "+hinhChuNhat.tinhChuVi();
+
+         }
+     function dienTich() {
+
+         let h=+document.getElementById("chieudai").value;
+         let w=+document.getElementById("chieurong").value;
+         let hinhChuNhat= new Rectangle(h,w);
+         document.getElementById("result").innerHTML="diện tích hình chữ nhật là "+hinhChuNhat.tinhDienTich();
+
+    }
+     function hienThi() {
+         let h=+document.getElementById("chieudai").value;
+         let w=+document.getElementById("chieurong").value;
+         let hinhChuNhat= new Rectangle(h,w);
+         document.getElementById("myCanvas").innerHTML=hinhChuNhat.drawHnc();
+     }
+    class Rectangle {
+        constructor(h, w) {
+            this.height = h;
+            this.width = w;
+        }
+
+        tinhChuVi() {
+            return (this.height + this.width) * 2;
+        }
+
+        tinhDienTich() {
+            return (this.width * this.height);
+        }
+
+        drawHnc() {
+            let canvas = document.getElementById("myCanvas");
+            if (canvas.getContext) {
+                let ctx = canvas.getContext('2d');
+                ctx.fillStyle = '#fa4b2a';
+                ctx.fillRect(10, 40, this.height, this.width);
+            }
+        }
+    }
+
+    // let chieuDai = +prompt("Nhập chiều dài");
+    // let chieuRong = +prompt("Nhập chiều rộng");
+    // let hinhChuNhat = new Rectangle(chieuDai, chieuRong);
+    // document.write("Chu vi của hình chữ nhật là " + hinhChuNhat.tinhChuVi() + "<br>");
+    // document.write("Diện tích của hình chữ nhật là " + hinhChuNhat.tinhDienTich());
+    // hinhChuNhat.drawHnc();
+</script>
+</body>
+</html>

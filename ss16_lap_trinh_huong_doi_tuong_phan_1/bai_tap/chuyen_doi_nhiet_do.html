@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đổi nhiệt độ</title>
+</head>
+<body>
+<script>
+    class Temperature {
+        constructor(c) {
+            this.c = c;
+        }
+
+        convertF() {
+            if (this.c > -273) {
+                return this.c * 1.8 + 32;
+            } else {
+                alert("Nhiệt độ không thích hợp");
+            }
+        }
+
+        convertK() {
+            if (this.c > -273) {
+                return this.c + 273.15;
+            } else {
+                alert("Nhiệt độ không thích hợp");
+            }
+        }
+    }
+
+    let nhap = parseInt(prompt("nhập"));
+    let temPera = new Temperature(nhap);
+    document.write("Nhiệt độ F : " + temPera.convertF() + "<br>");
+    document.write("Nhiệt độ K : " + temPera.convertK());
+</script>
+</body>
+</html>
