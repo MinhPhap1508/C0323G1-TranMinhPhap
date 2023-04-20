@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faf2f9f3-3f67-4f23-99e5-aa9a083cb0a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss15_mang_phan_2/bai_tap/bai_4_kiem_tra_ky_tu_so.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_mang_phan_2/bai_tap/bai_5_kiem_tra_so_nho_nhat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_mang_phan_2/bai_tap/bai_6_kiem_tra_so_nguyen_duong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_mang_phan_2/bai_tap/bai_7_doi_cho_2_so_nguyen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_mang_phan_2/bai_tap/bai_8_dao_nguoc_mang_so_nguyen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss15_mang_phan_2/bai_tap/bai_9_kiem_tra_ky_tu_co_nam_trong_mang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss15_mang_phan_2/thuc_hanh/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_mang_phan_2/bai_tap/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_mang_phan_2/bai_tap/bai_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15_mang_phan_2/bai_tap/bai_9_kiem_tra_ky_tu_co_nam_trong_mang.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_mang_phan_2/bai_tap/bai_9_kiem_tra_ky_tu_co_nam_trong_mang.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +70,7 @@
       <workItem from="1681820164168" duration="5008000" />
       <workItem from="1681866429664" duration="9542000" />
       <workItem from="1681905452906" duration="4411000" />
+      <workItem from="1681959790914" duration="2050000" />
     </task>
     <servers />
   </component>

@@ -6,15 +6,36 @@
 </head>
 <body>
 <script>
-    let num = parseInt(prompt("Nhập số chuỗi trong mảng"));
-    let arr = [];
-    for (let i = 0; i < num; i++) {
-
-        arr[i] = prompt("Nhập mảng " + (i + 1));
-    function checkArr() {
-        
+    function enterArray(x) {
+        num = parseInt(prompt('nhập vào số ký tự trong mảng'));
+        for (let j = 0; j < num; j++) {
+            str = prompt('nhập vào kí tự số' + (j + 1));
+            if (str.length === 1) {
+                arr.push(str);
+            }
+        }
     }
 
+    function testCharacters(x) {
+        let flag = false;
+        let count = 0;
+        for (let i = 0; i < arr.length; i++) {
+            if (kiemTra === arr[i]) {
+                flag = true;
+                count++;
+            }
+        }
+        if (flag) {
+            alert("số lần xuất hiện của ký tự " + kiemTra + " là " + count + " lần ");
+        } else {
+            alert('-1');
+        }
+    }
+
+    let arr = [];
+    enterArray(arr);
+    let kiemTra = prompt("Nhập ký tự cần kiểm tra");
+    testCharacters(kiemTra);
 </script>
 </body>
 </html>
