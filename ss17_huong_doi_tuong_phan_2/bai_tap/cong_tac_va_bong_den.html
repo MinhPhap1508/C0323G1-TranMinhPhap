@@ -11,9 +11,10 @@
             this.status = status;
             this.lamp = lamp;
         }
+
         connectToLamp(ElectricLamp) {
-            this.lamp = ElectricLamp;
-            document.writeln("Đã kết nối với bóng đèn"+"<br>");
+            this.status = ElectricLamp;
+            document.writeln("Đã kết nối với bóng đèn" + "<br>");
         }
 
         switchOff() {
@@ -30,29 +31,26 @@
     class ElectricLamp {
         constructor(status) {
             this.status = status;
-            this.status=true;
         }
 
         turnOff() {
             document.write("Đèn đã được tắt ");
-            return this.status
+            return this.status = false
         }
 
         turnOn() {
             document.write("Đèn đã được bật  ");
-            return this.status
+            return this.status = true;
 
         }
     }
-    let lamp=new ElectricLamp();
-    let button=new SwitchButton();
+
+    let lamp = new ElectricLamp();
+    let button = new SwitchButton();
     button.connectToLamp(lamp);
-    for (let i = 0; i < 10; i++){
-
-
-    document.write(button.switchOn()+"<br>");
-
-    document.write(button.switchOff()+"<br>")
+    for (let i = 0; i < 10; i++) {
+        document.write(button.switchOn() + "<br>");
+        document.write(button.switchOff() + "<br>");
     }
 </script>
 </body>
