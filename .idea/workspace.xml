@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="faf2f9f3-3f67-4f23-99e5-aa9a083cb0a9" name="Changes" comment="" />
+    <list default="true" id="faf2f9f3-3f67-4f23-99e5-aa9a083cb0a9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/case_study/mang_va_loop/bai_4_goi_do_uong.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/mang_va_loop/bai_4_goi_do_uong.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +75,7 @@
       <workItem from="1682141259413" duration="2892000" />
       <workItem from="1682298420043" duration="20943000" />
       <workItem from="1682339686232" duration="5784000" />
-      <workItem from="1682385107214" duration="21995000" />
+      <workItem from="1682385107214" duration="22344000" />
     </task>
     <servers />
   </component>
