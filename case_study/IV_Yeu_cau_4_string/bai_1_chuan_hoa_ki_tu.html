@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+
+    function chuanHoa(str) {
+        let arr = str.toLowerCase().split(' ');
+        let array1 = [];
+        let string = [];
+        let array2 = [];
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] !== "") {
+                array1.push(arr[i]);
+            }
+        }
+        for (let i = 0; i < array1.length; i++) {
+            string = array1[i][0].toUpperCase() + array1[i].slice(1)
+            array2.push(string)
+        }
+        return array2.join(' ')
+    }
+
+
+    let s = prompt('Nhập vào 1 chuỗi');
+    let truocChuan = s
+    document.write("Hàm trước khi chuẩn hóa là " + truocChuan + "<br>");
+    let result = chuanHoa(s);
+    document.write("Hàm sau khi chuẩn hóa là " + result+"<br>");
+    document.write("chuỗi lớn nhất là "+max);
+</script>
+</body>
+</html>

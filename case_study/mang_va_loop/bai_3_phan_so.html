@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = [5, 2, 5];
+    let b = [6, 3, 4];
+    let max = 0;
+    let viTri = 0;
+    let soA = 0;
+    let soB = 0;
+    for (let i = 0; i < 3; i++) {
+        if (max < (a[i] / b[i])) {
+            max = a[i] / b[i];
+            viTri = i;
+            soA = a[i];
+            soB = b[i];
+        }
+    }
+    document.write(soA + "/" + soB + " là phân số lớn nhất," + " có chỉ số là " + viTri);
+</script>
+</body>
+</html>

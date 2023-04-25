@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let s = "cabca";
+    let as = []
+    for (let i = 0; i < s.length; i++) {
+        if (as.includes(s[i]) === false) {
+            as.push(s[i])
+        }
+    }
+    let soLuong = as.length
+    let aas = as.sort()
+    document.write("Có " + soLuong + " ký tự khác nhau là " + aas)
+</script>
+</body>
+</html>

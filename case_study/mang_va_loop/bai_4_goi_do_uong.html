@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let str = `
+        MENU:
+        1.Cafe
+        2.Cam vắt
+        3.Nước ép cà rốt
+        4.Nước ép cà chua
+        5.Nước lọc
+        6.Nước dừa
+        7.Thoát gọi món
+        `;
+
+
+    let option;
+    do {
+        option = parseInt(prompt("Nhập thức uống bạn cần:" + str));
+    } while (option <= 0 || option > 7);
+    let gia = [15000, 30000, 25000, 20000, 5000, 27000];
+    let soLuong = parseInt(prompt("Nhập số lượng"));
+    switch (option) {
+
+        case 1:
+            alert("Giá tiền của cafe là " + gia[0] * soLuong)
+            break;
+        case 2:
+            alert("Giá tiền của cam vắt là " + gia[1] * soLuong)
+            break;
+        case 3:
+            alert("Giá tiền của cà rốt là " + gia[2] * soLuong);
+            break;
+        case 4:
+            alert("Giá tiền của cà chua là " + gia[3] * soLuong);
+            break;
+        case 5:
+            alert("Giá tiền của nước lọc là " + gia[4] * soLuong);
+            break;
+        case 6:
+            alert("Giá tiền của nước dừa là " + gia[5] * soLuong);
+            break;
+        case 7:
+            alert("Cảm ơn bạn đã đặt món");
+            break;
+        default:
+            alert("Vui lòng chọn từ 1 đến 7");
+            break;
+    }
+</script>
+</body>
+</html>

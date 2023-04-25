@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let strA = [7, 2, 5, 3, 5, 3];
+    let strB = [7, 2, 5, 4, 6, 3, 5, 3];
+    let AB = []
+    for (let i = 0; i < strB.length; i++) {
+        if(strA.indexOf(strB[i])===-1){
+            AB.push(strB[i])
+        }
+    }document.write("Số nguyên không xuất hiện trong strA là "+AB)
+</script>
+</body>
+</html>

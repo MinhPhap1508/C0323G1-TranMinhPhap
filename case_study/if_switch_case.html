@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>If và switch case</title>
+</head>
+<body>
+<script>
+    let luongNV = parseInt(prompt("Nhập vào lương nhân viên"));
+    let thue;
+
+    if (luongNV > 15000000) {
+        thue = luongNV * 20 / 100;
+    } else if (luongNV > 7000000) {
+        thue = luongNV * 10 / 100;
+    } else {
+        thue = luongNV * 5 / 100;
+    }
+    let luongRong = luongNV - thue;
+    alert("Thuế thu nhập phải đóng là " + thue);
+    alert("Mức lương thực sự nhận được là " + luongRong);
+</script>
+</body>
+</html>
