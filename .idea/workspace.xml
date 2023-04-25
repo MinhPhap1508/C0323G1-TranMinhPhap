@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="faf2f9f3-3f67-4f23-99e5-aa9a083cb0a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/case_study/IV_Yeu_cau_4_string/bai_1_chuan_hoa_ki_tu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_study/IV_Yeu_cau_4_string/bai_1_xau_ky_tu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_study/IV_Yeu_cau_4_string/bai_2_dem_ky_tu_khac_nhau.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_study/IV_Yeu_cau_4_string/bai_3_ki_tu_chung.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_study/V_yeu_cau_5_mang_2_chieu/bai_1_tinh_tong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_study/if_bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_study/if_switch_case.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_study/mang_va_loop/bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_study/mang_va_loop/bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_study/mang_va_loop/bai_3_phan_so.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_study/mang_va_loop/bai_4_goi_do_uong.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss14_ham/bai_tap/bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss14_ham/bai_tap/bai_4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss17_huong_doi_tuong_phan_2/thuc_hanh/tưe.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss17_huong_doi_tuong_phan_2/thuc_hanh/tưe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/thuc_hanh/thuc_hanh_switch_case.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss8_cau_truc_dieu_kien/thuc_hanh/thuc_hanh_switch_case.html" afterDir="false" />
-    </list>
+    <list default="true" id="faf2f9f3-3f67-4f23-99e5-aa9a083cb0a9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +73,7 @@
       <workItem from="1682141259413" duration="2892000" />
       <workItem from="1682298420043" duration="20943000" />
       <workItem from="1682339686232" duration="5784000" />
-      <workItem from="1682385107214" duration="21697000" />
+      <workItem from="1682385107214" duration="21995000" />
     </task>
     <servers />
   </component>
