@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>min max</title>
+</head>
+<body>
+<script>
+    let row = +prompt("Nhập hàng");
+    let column = +prompt("Nhập cột");
+    let arr = new Array(row);
+    for (let i = 0; i < row; i++) {
+        arr[i] = new Array(column);
+        for (let j = 0; j < arr[i].length; j++) {
+            arr[i][j] = +prompt("Nhập phần tử hàng " + i + "Vị trí thứ " + j);
+        }
+    }
+    alert(arr);
+
+    function kiemTraMax(num) {
+        let max = num[0][0];
+        for (let i = 0; i < num.length; i++) {
+            for (let j = 0; j < num[i].length; j++) {
+                if (max < num[i][j]) {
+                    max = num[i][j];
+                }
+            }
+        }
+        return max;
+    }
+
+    function kiemTraMin(num) {
+        let min = num[0][0];
+        for (let i = 0; i < num.length; i++) {
+            for (let j = 0; j < num[i].length; j++) {
+                if (min > num[i][j]) {
+                    min = num[i][j];
+                }
+            }
+        }
+        return min;
+    }
+
+    document.write("Giá trị lớn nhất trong mảng là " + kiemTraMax(arr) + "<br>");
+    document.write("Giá trị nhỏ nhất trong mảng là " + kiemTraMin(arr));
+</script>
+</body>
+</html>

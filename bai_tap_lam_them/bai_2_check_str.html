@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function checkString(str) {
+        let na = ["u", "e", "o", "a", "i"];
+        let arr = str.toLowerCase().split(' ');
+        let arr1 = [];
+        for (let i = 0; i < arr.length; i++) {
+            for (let j = 0; j < na.length; j++) {
+                if (arr[i].includes(na[j]) === true) {
+                    arr1.push(na[j]);
+                }
+            }
+        }
+        return arr1;
+    }
+
+    str = prompt("Nhập chuỗi");
+    alert(checkString(str));
+
+</script>
+</body>
+</html>

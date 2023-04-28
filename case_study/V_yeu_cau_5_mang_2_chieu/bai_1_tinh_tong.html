@@ -6,20 +6,30 @@
 </head>
 <body>
 <script>
-    let arr = [
-        [1, 3, 4, 6, 5, 10, 18],
-        [2, 4, 5, 6, 8, 9, 15]
-    ];
+    let n = +prompt("Nhập số hàng");
+    let m = +prompt("Nhập số cột");
+    let arr = new Array(n);
+    for (let i = 0; i < n; i++) {
+        arr[i] = new Array(m);
+        for (let j = 0; j < arr[i].length; j++) {
+            arr[i][j] = +prompt("nhập phần tử thứ " + i + " Ví trí thứ " + j);
+        }
+    }
+    alert(arr);
 
     function tinhTong(sum) {
-        let tong = 0
+        let tong = 0;
         for (let i = 0; i < sum.length; i++) {
-            if (sum[i] % 2 === 0) {
-                tong += sum[i]
+            for (let j = 0; j < sum[i].length; j++) {
+                if (sum[i][j] % 2 === 0) {
+                    tong += sum[i][j];
+                }
             }
-        } return tong
+        }
+        return tong;
     }
-    document.write(tinhTong(arr))
+
+    document.write(tinhTong(arr));
 </script>
 </body>
 </html>

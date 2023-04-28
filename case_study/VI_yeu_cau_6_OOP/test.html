@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<label><input type="button" onclick="addNew()" value="Thêm mới học viên"></label>
+<label><input type="button" onclick="sua" value="Sửa thông tin học viên"></label>
+<label><input type="button" onclick="deleteStudent()" value="Xóa học viên"></label>
+<p id="result"></p>
+<!--   <table border="1" style="border-collapse: collapse">-->
+<!--       <tr>-->
+<!--           <th>Mã học viên</th>-->
+<!--           <th>Tên</th>-->
+<!--           <th>Lớp</th>-->
+<!--           <th>Email</th>-->
+<!--           <th>Ngày sinh</th>-->
+<!--       </tr>-->
+<!--       <tr>-->
+<!--           <td>123</td>-->
+<!--           <td>phap</td>-->
+<!--           <td>c0323g1</td>-->
+<!--           <td>f@gmail</td>-->
+<!--           <td>2023</td>-->
+<!--       </tr>-->
+<!--   </table>-->
+<script>
+    class Student {
+        constructor(id, name, classs, email, date) {
+
+            this.id = id;
+            this.name = name;
+            this.classs = classs;
+            this.email = email;
+            this.date = date;
+        }
+
+        getId() {
+            return this.id;
+        }
+
+        getName() {
+            return this.name;
+        }
+
+        getClasss() {
+            return this.classs;
+        }
+
+        getEmail() {
+            return this.email;
+        }
+
+        getDate() {
+            return this.date;
+        }
+
+        setId(value) {
+            this.id = value;
+        }
+
+        setName(value) {
+            this.name = value;
+        }
+
+        setClasss(value) {
+            this.classs = value;
+        }
+
+        setEmail(value) {
+            this.email = value;
+        }
+
+        setDate(value) {
+            this.date = value;
+        }
+    }
+
+    let student1 = new Student("HV-001", "Nguyễn Văn A", "C0323G1", "vana@gmail.com", "12/12/2012");
+    let student2 = new Student("HV-002", "Văn Thị B", "C0423G1", "gao@gmail.com", "206/04/2001");
+    let bigstudent = [];
+    bigstudent.push(student1, student2);
+
+    function addNew() {
+        let id = prompt("Nhập id học viên mới");
+        let name = prompt("Nhập tên học viên mới");
+        let classs = prompt("Nhập lớp học viên mới");
+        let email = prompt("Nhập email học viên mới");
+        let date = prompt("Nhập ngày sinh học viên mới");
+        let add = new Student(id, name, classs, email, date);
+        bigstudent.push(add);
+        display();
+    }
+
+    function deleteStudent() {
+        let deletee = prompt("Nhập id học viên cần xóa");
+        let flag = false
+        let index = 1;
+        for (let i = 0; i < bigstudent.length; i++) {
+            if (deletee === bigstudent[i].getId()) {
+                flag = true;
+                index = i;
+            }
+            if (flag) {
+                let conf = confirm("Bạn có chắc muốn xóa không");
+                if (conf) {
+                    bigstudent.splice(index, 1);
+                }
+            }else {
+                alert("Mã học viên không tồn tại");
+                break
+            }
+        }
+        // let conf = confirm("Bạn có chắc muốn xóa không");
+        // if (conf) {
+        //     for (let i = 0; i < bigstudent.length; i++) {
+        //         if (deletee === bigstudent[i].getId()) {
+        //             bigstudent.splice(i, 1);
+        //         } else {
+        //             return alert("Mã học viên không tồn tại");
+        //         }
+        //     }
+        // }
+        display();
+    }
+
+    function editStudent() {
+
+    }
+
+    function display() {
+        let tableString = ' <table border="1" style="border-collapse: collapse">\n' +
+            '       <tr>\n' +
+            '           <th>Mã học viên</th>\n' +
+            '           <th>Tên</th>\n' +
+            '           <th>Lớp</th>\n' +
+            '           <th>Email</th>\n' +
+            '           <th>Ngày sinh</th>\n' +
+            '       </tr>';
+        for (let i = 0; i < bigstudent.length; i++) {
+            tableString += '  <tr>\n' +
+                '           <td>' + bigstudent[i].getId() + '</td>\n' +
+                '           <td>' + bigstudent[i].getName() + '</td>\n' +
+                '           <td>' + bigstudent[i].getClasss() + '</td>\n' +
+                '           <td>' + bigstudent[i].getEmail() + '</td>\n' +
+                '           <td>' + bigstudent[i].getDate() + '</td>\n' +
+                '       </tr>'
+        }
+        tableString += '</table>'
+        document.getElementById("result").innerHTML = tableString;
+    }
+
+    display()
+</script>
+</body>
+</html>

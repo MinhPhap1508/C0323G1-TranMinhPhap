@@ -2,7 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faf2f9f3-3f67-4f23-99e5-aa9a083cb0a9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/case_study/mang_va_loop/bai_4_goi_do_uong.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/mang_va_loop/bai_4_goi_do_uong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_lam_them/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_lam_them/bai_2_check_str.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_lam_them/bai_3_kiem_tra_canh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_lam_them/bai_tap_them/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_lam_them/bai_tap_them/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_lam_them/bai_tap_them/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_lam_them/bai_tap_them/bai_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bai_tap_lam_them/bai_tap_them/bai_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/II_Yeu_cau_2_loop/bai_1_ve_tam_giac.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/II_Yeu_cau_2_loop/bai_2_tam_giac_can.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/II_Yeu_cau_2_loop/bai_tam_giac_can_rong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/VI_yeu_cau_6_OOP/quan_ly_hoc_vien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/VI_yeu_cau_6_OOP/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/V_yeu_cau_5_mang_2_chieu/bai_2_liet_ke_so_nguyen_to.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/V_yeu_cau_5_mang_2_chieu/bai_3_kiem_tra_min_max.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study/IV_Yeu_cau_4_string/bai_1_chuan_hoa_ki_tu.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/IV_Yeu_cau_4_string/bai_1_chuan_hoa_ki_tu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study/IV_Yeu_cau_4_string/bai_1_xau_ky_tu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study/IV_Yeu_cau_4_string/bai_2_dem_ky_tu_khac_nhau.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/IV_Yeu_cau_4_string/bai_2_dem_ky_tu_khac_nhau.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study/V_yeu_cau_5_mang_2_chieu/bai_1_tinh_tong.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/V_yeu_cau_5_mang_2_chieu/bai_1_tinh_tong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study/mang_va_loop/bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/III_Yeu_cau_3_mang_va_loop/bai_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study/mang_va_loop/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/III_Yeu_cau_3_mang_va_loop/bai_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study/mang_va_loop/bai_3_phan_so.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/III_Yeu_cau_3_mang_va_loop/bai_3_phan_so.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study/mang_va_loop/bai_4_goi_do_uong.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/III_Yeu_cau_3_mang_va_loop/bai_4_goi_do_uong.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +66,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/demo/demo-loop/demoDoWhile.html" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="bai_7.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module1/bai_tap_lam_them/bai_tap_them/bai_7.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.bai_7.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -75,7 +109,14 @@
       <workItem from="1682141259413" duration="2892000" />
       <workItem from="1682298420043" duration="20943000" />
       <workItem from="1682339686232" duration="5784000" />
-      <workItem from="1682385107214" duration="22344000" />
+      <workItem from="1682385107214" duration="23861000" />
+      <workItem from="1682426062206" duration="1134000" />
+      <workItem from="1682471642814" duration="22622000" />
+      <workItem from="1682512053584" duration="5724000" />
+      <workItem from="1682558167608" duration="21237000" />
+      <workItem from="1682603113982" duration="4442000" />
+      <workItem from="1682644427158" duration="1301000" />
+      <workItem from="1682647207029" duration="14114000" />
     </task>
     <servers />
   </component>

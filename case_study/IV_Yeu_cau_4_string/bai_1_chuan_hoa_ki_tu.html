@@ -10,28 +10,33 @@
 
     function chuanHoa(str) {
         let arr = str.toLowerCase().split(' ');
-        let array1 = [];
+        let arr1 = [];
         let string = [];
-        let array2 = [];
+        let arr2 = [];
+        let max = '';
         for (let i = 0; i < arr.length; i++) {
             if (arr[i] !== "") {
-                array1.push(arr[i]);
+                arr1.push(arr[i]);
             }
         }
-        for (let i = 0; i < array1.length; i++) {
-            string = array1[i][0].toUpperCase() + array1[i].slice(1);
-            array2.push(string);
+        for (let i = 0; i < arr1.length; i++) {
+            string = arr1[i][0].toUpperCase() + arr1[i].slice(1);
+            arr2.push(string);
+            if (arr2[i].length > max.length) {
+                max = arr2[i];
+                document.write("Chuỗi lớn nhất là " + max + "<br>");
+            }
         }
-        return array2.join(' ');
+        return arr2.join(' ');
     }
 
 
-    let s = prompt('Nhập vào 1 chuỗi');
-    let truocChuan = s;
+    let enterStr = prompt('Nhập vào 1 chuỗi');
+    let truocChuan = enterStr;
+    let result = chuanHoa(enterStr);
     document.write("Hàm trước khi chuẩn hóa là " + truocChuan + "<br>");
-    let result = chuanHoa(s);
     document.write("Hàm sau khi chuẩn hóa là " + result + "<br>");
-    document.write("chuỗi lớn nhất là " + max);
+
 </script>
 </body>
 </html>

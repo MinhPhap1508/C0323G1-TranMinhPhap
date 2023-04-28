@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản lý học viên</title>
+</head>
+<body>
+<label><input type="button" onclick="add()" value="Thêm mới học viên"></label>
+<label><input type="button" onclick="editHV()" value="Sửa thông tin học viên"></label>
+<label><input type="button" onclick="deleteHV()" value="Xóa học viên"></label>
+<p id="result"></p>
+<!--<table border="1" style="border-collapse: collapse">-->
+<!--    <tr>-->
+<!--        <td>Mã học viên</td>-->
+<!--        <td>Tên</td>-->
+<!--        <td>Lớp</td>-->
+<!--        <td>Email</td>-->
+<!--        <td>Ngày sinh</td>-->
+<!--    </tr>-->
+<!--</table>-->
+
+<script>
+    class HocVien {
+        constructor(maHocVien, ten, lop, email, ngaySinh, module) {
+            this.maHocVien = maHocVien;
+            this.ten = ten;
+            this.lop = lop;
+            this.email = email;
+            this.ngaySinh = ngaySinh;
+            this.module = module;
+        }
+
+        getMaHocVien() {
+            return this.maHocVien;
+        }
+
+        setMaHocVien(value) {
+            this.maHocVien = value;
+        }
+
+        getTen() {
+            return this.ten;
+        }
+
+        setTen(value) {
+            this.ten = value;
+        }
+
+        getLop() {
+            return this.lop;
+        }
+
+        setLop(value) {
+            this.lop = value;
+        }
+
+        getEmail() {
+            return this.email;
+        }
+
+        setEmail(value) {
+            this.email = value;
+        }
+
+        getNgaySinh() {
+            return this.ngaySinh;
+        }
+
+        setNgaySinh(value) {
+            this.ngaySinh = value;
+        }
+
+        getModule() {
+            return this.module;
+        }
+
+        setModule(value) {
+            this.module = value;
+        }
+    }
+
+    let hocVien1 = new HocVien("HV-0001", "Nguyễn Văn A", "C1022G1", "nguyenvana@gmail.com", "01/01/2004", 1)
+    let hocVien2 = new HocVien("HV-0002", "Nguyễn Văn B", "C1122G1", "nguyenvanb@gmail.com", "02/02/2004", 1)
+    let quanLy = [];
+    quanLy.push(hocVien1);
+    quanLy.push(hocVien2);
+    console.log(quanLy)
+
+    function add() {
+        let id = prompt("Nhập mã học viên");
+        let name = prompt("Nhập tên học viên");
+        let classs = prompt("Nhập lớp");
+        let mail = prompt("Nhập email");
+        let date = prompt("Nhập Ngày sinh");
+        let newquanly = new HocVien(id, name, classs, mail, date);
+        quanLy.push(newquanly);
+        display();
+    }
+
+    function deleteHV() {
+        let enterId = prompt("Bạn muốn xóa học viên nào");
+        let conf = confirm("Bạn có muốn xóa không");
+        if (conf) {
+            for (let i = 0; i < quanLy.length; i++) {
+                if (enterId === quanLy[i].getMaHocVien()) {
+                    quanLy.splice(i, 1);
+                }
+            }
+        } else {
+            return;
+        }
+
+        display()
+    }
+
+    function editHV() {
+        let editId = prompt("Nhập mã học viên mới")
+        let edit = new HocVien(editId.setMaHocVien())
+        quanLy.push(edit)
+        display()
+    }
+
+    function display() {
+        let tableString = '<table border="1" style="border-collapse: collapse">\n' +
+            '    <tr>\n' +
+            '        <td>Mã học viên</td>\n' +
+            '        <td>Tên</td>\n' +
+            '        <td>Lớp</td>\n' +
+            '        <td>Email</td>\n' +
+            '        <td>Ngày sinh</td>\n' +
+            '    </tr>'
+        for (let i = 0; i < quanLy.length; i++) {
+            tableString += '<tr>\n' +
+                '<td>' + quanLy[i].getMaHocVien() + '</td>\n' +
+                '<td>' + quanLy[i].getTen() + '</td>\n' +
+                '<td>' + quanLy[i].getLop() + '</td>\n' +
+                '<td>' + quanLy[i].getEmail() + '</td>\n' +
+                '<td>' + quanLy[i].getNgaySinh() + '</td>\n' +
+                '</tr>'
+        }
+        tableString += '</table>'
+        document.getElementById("result").innerHTML = tableString;
+    }
+
+    display();
+</script>
+</body>
+</html>

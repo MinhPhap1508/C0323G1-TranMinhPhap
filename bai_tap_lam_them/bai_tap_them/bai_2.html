@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Nhập vào tháng, năm bất kỳ. In ra số ngày tương ứng với tháng, năm đó-->
+<script>
+    let month = +prompt("Nhập số tháng");
+    let year = +prompt("Nhập số năm");
+    if (month === 1 || month === 3 || month === 5 || month === 7 || month === 8 || month === 10 || month === 12) {
+        alert("Tháng " + month + " có 31 ngày");
+    } else if (month === 4 || month === 6 || month === 9 || month === 1) {
+        alert("Tháng " + month + " có 30 ngày");
+    } else if (month === 2) {
+        if (checkYear(year) === true) {
+            alert("Tháng " + month + " có 29 ngày");
+        } else {
+            alert("Tháng " + month + " có 28 ngày");
+        }
+    } else {
+        alert("tháng này không tồn tại");
+    }
+
+    // function checkYear(year) {
+    //     if (year % 4 === 0 || year % 400 === 0){
+    //         return true
+    //     }else {
+    //         return false
+    //     }
+    //
+    //         }
+    function checkYear(year) {
+        return (year % 4 === 0 && year % 100 !== 0 || year % 400 === 0)
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>số nguyên tố</title>
+</head>
+<body>
+<script>
+    let row = +prompt("Nhập số hàng");
+    let colum = +prompt("Nhập số cột");
+    let arr = new Array(row);
+    for (let i = 0; i < row; i++) {
+        arr[i] = new Array(colum);
+        for (let j = 0; j < arr[i].length; j++) {
+            arr[i][j] = +prompt("Nhập số phần tử hàng " + i + "Ví trị thứ " + j);
+        }
+    }
+    alert(arr);
+
+    function snt(number) {
+        if (number < 2) {
+            return false;
+        } else {
+            for (let i = 2; i < number; i++) {
+                if (number % i === 0) {
+                    return false;
+                }
+            }
+        }
+        return true;
+
+    }
+
+    snt(arr);
+    let lietke = [];
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = 0; j < arr[i].length; j++) {
+            if (snt(arr[i][j]) === true) {
+                lietke.push(arr[i][j]);
+            }
+        }
+    }
+    document.write("có " + lietke.length + " số nguyên tố là " + lietke);
+</script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num = +prompt("Nhập kích thước của mảng");
+    let arr = [];
+
+    if (num % 2 === 0) {
+        let flag = true;
+        for (let i = 0; i < num; i++) {
+            arr[i] = prompt("Nhập phần tử thứ " + i)
+        }
+
+        for (let i = 0; i < arr.length; i += 2) {
+            if (arr[i] >= arr[i + 1]) {
+                flag = false;
+                break;
+            }
+        }
+        if (flag) {
+            alert("ok");
+        } else {
+            alert("not ok");
+        }
+    } else {
+        alert("vui lòng nhập lại");
+    }
+
+</script>
+</body>
+</html>

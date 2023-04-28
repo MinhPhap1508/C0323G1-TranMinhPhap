@@ -7,13 +7,21 @@
 <body>
 <script>
     let strA = [7, 2, 5, 3, 5, 3];
-    let strB = [7, 2, 5, 4, 6, 3, 5, 3];
+    let strB = [7, 2, 5, 4, 6, 3, 5, 6, 3];
     let AB = [];
+    let S = [];
     for (let i = 0; i < strB.length; i++) {
         if (strA.indexOf(strB[i]) === -1) {
             AB.push(strB[i]);
+
         }
     }
+    for (let i = 0; i < AB.length; i++) {
+        if (S.indexOf(AB[i]) === -1) {
+            S.push(AB[i]);
+        }
+    }
+    alert(S);
     document.write("Số nguyên không xuất hiện trong strA là " + AB);
 </script>
 </body>
